@@ -1,7 +1,7 @@
 import streamlit as st
 from supabase import create_client
-from config import SUPABASE_URL, SUPABASE_KEY
-import pandas as pd
+SUPABASE_URL = st.secrets["SUPABASE_URL"]
+SUPABASE_KEY = st.secrets["SUPABASE_KEY"]import pandas as pd
 import plotly.express as px
 
 st.set_page_config(
