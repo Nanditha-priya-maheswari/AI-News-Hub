@@ -26,7 +26,7 @@ response = (
     .execute()
 )
 
-news = response.data
+news = response.data or []
 
 df = pd.DataFrame(news)
 
