@@ -3,7 +3,6 @@ AI News Hub
 AI News Hub is an AI-powered news summarization application built using:
 
 - Google Gemini AI
-- Make.com
 - Supabase
 - Streamlit
 
